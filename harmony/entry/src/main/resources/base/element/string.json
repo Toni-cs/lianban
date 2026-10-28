@@ -1,0 +1,7 @@
+{
+  "string": [
+    { "name": "app_name", "value": "联伴" },
+    { "name": "module_desc", "value": "和电脑看同一份对话的鸿蒙应用" },
+    { "name": "ability_desc", "value": "联伴" }
+  ]
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>联伴 · 华为应用控制端</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body class="control">
+  <div class="phone">
+    <header>
+      <p class="eyebrow">华为应用</p>
+      <h1>控制这台电脑</h1>
+      <p id="phone-state" class="state">正在连接电脑端</p>
+    </header>
+    <section>
+      <h2>队友</h2>
+      <div id="bot-list" class="stack"></div>
+    </section>
+    <form id="task-form">
+      <label for="task">下发到电脑端</label>
+      <textarea id="task" rows="3" placeholder="请把内容写到 报告.txt：电路实验完成"></textarea>
+      <button type="submit">发送</button>
+    </form>
+    <section>
+      <h2>待确认</h2>
+      <div id="inbox" class="stack"></div>
+    </section>
+    <p class="foot"><a href="/">返回电脑端</a></p>
+  </div>
+  <script src="/static/common.js?v=2"></script>
+  <script src="/static/control.js?v=2"></script>
+</body>
+</html>

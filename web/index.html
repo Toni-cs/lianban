@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>联伴电脑端</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body class="desk">
+  <header class="top">
+    <div>
+      <p class="eyebrow">电脑端</p>
+      <h1>联伴</h1>
+    </div>
+    <p id="link-state" class="state">正在连接这台电脑</p>
+    <a class="jump" href="/control">打开华为应用控制端</a>
+  </header>
+  <main class="desk-grid">
+    <section class="panel">
+      <h2>工作区文件</h2>
+      <ul id="files" class="files"></ul>
+    </section>
+    <section class="panel terminal">
+      <h2>电脑记录</h2>
+      <pre id="screen">等待华为应用下发指令。</pre>
+      <h2>文件内容</h2>
+      <pre id="preview">点左边的文件可以看内容。</pre>
+    </section>
+    <section class="panel">
+      <h2>队友</h2>
+      <ul id="bots" class="roster"></ul>
+      <div id="transcript" class="transcript"></div>
+    </section>
+  </main>
+  <script src="/static/common.js?v=2"></script>
+  <script src="/static/desk.js?v=2"></script>
+</body>
+</html>

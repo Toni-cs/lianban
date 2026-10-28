@@ -1,0 +1,11 @@
+{
+  "modelVersion": "26.0.0",
+  "name": "lianban",
+  "version": "1.0.0",
+  "description": "联伴鸿蒙端。配对后看电脑上的同一份对话，协议与原来的 iOS、Android 伴侣一致。",
+  "main": "",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "devDependencies": {}
+}
