@@ -103,8 +103,8 @@ flowchart LR
 
 | 文件 | 用在哪里 |
 | --- | --- |
-| [lianban-setup-0.1.127.exe.part1](release-assets/lianban-setup-0.1.127.exe.part1) / [part2](release-assets/lianban-setup-0.1.127.exe.part2) / [part3](release-assets/lianban-setup-0.1.127.exe.part3) | Windows 桌面端安装包，按平台单文件限制拆成三卷。下载后合并还原，双击安装（第一次打开系统可能提示发布者未知）：`copy /b lianban-setup-0.1.127.exe.part1+lianban-setup-0.1.127.exe.part2+lianban-setup-0.1.127.exe.part3 lianban-setup-0.1.127.exe` |
-| [lianban-1.0.0.hap](release-assets/lianban-1.0.0.hap) | 鸿蒙客户端。调试签名，用 DevEco 预览器安装；真机要先把设备标识写进描述文件再重新签名（材料见 `harmony/sign/`）。 |
+| [lianban-setup-0.1.127.exe](https://github.com/Toni-cs/lianban/releases/download/v0.1.127/lianban-setup-0.1.127.exe)（244.9 MB，发布页单文件） | Windows 桌面端。双击安装，第一次打开系统可能提示发布者未知。备用：仓库内三卷分装（[release-assets/](release-assets/)），合并后与原包逐字节一致——`copy /b lianban-setup-0.1.127.exe.part1+lianban-setup-0.1.127.exe.part2+lianban-setup-0.1.127.exe.part3 lianban-setup-0.1.127.exe` |
+| [lianban-1.0.0.hap](https://github.com/Toni-cs/lianban/releases/download/v0.1.127/lianban-1.0.0.hap) | 鸿蒙客户端。调试签名，用 DevEco 预览器安装；真机要先把设备标识写进描述文件再重新签名（材料见 `harmony/sign/`）。 |
 
 ### 跑 Python 服务端
 
